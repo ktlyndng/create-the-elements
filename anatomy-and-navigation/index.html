@@ -43,47 +43,49 @@
       Children: a, ul
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
     -->
-
-    <!--
-      32
-      TODO: Make an a element
-      Annotation: 2
-      Children: img
-      Attributes:
-        - href: #
-        - title: Logo
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
-    -->
-
-    <!--
-      33
-      TODO: Make an img element
-      Annotation: 2
-      Attributes:
-        - src: logo.jpg (figure out the relative path)
-        - alt: Logo of Company XYZ
-        - width: 100%
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
-    -->
-
-    <!--
-      34
-      TODO: Make an ul element
-      Annotation: 3
-      Children: li, li, li
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
-    -->
-
-    <!--
-      35, 37, 39
-      TODO: Make a li element
-      Annotation: 4, 5, 6
-      Children: a
-      Iterations: 3 (i.e. repeat this block and its child three times)
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
-    -->
-
-    <!--
+    <nav>
+      <!--
+        32
+        TODO: Make an a element
+        Annotation: 2
+        Children: img
+        Attributes:
+          - href: #
+          - title: Logo
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+      -->
+      <a href="#" title: Logo>
+       <!--
+        33
+        TODO: Make an img element
+        Annotation: 2
+        Attributes:
+          - src: logo.jpg (figure out the relative path)
+          - alt: Logo of Company XYZ
+          - width: 100%
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+      -->
+      <img src="/images/logo.jpg" alt="Logo of Company XYZ" width: 100%>
+      </a>
+  
+      <!--
+        34
+        TODO: Make an ul element
+        Annotation: 3
+        Children: li, li, li
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+      -->
+      <ul>
+        <!--
+          35, 37, 39
+          TODO: Make a li element
+          Annotation: 4, 5, 6
+          Children: a
+          Iterations: 3 (i.e. repeat this block and its child three times)
+          Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+        -->
+        <li>
+           <!--
       36, 38, 40
       TODO: Make an a element
       Annotation: 4, 5, 6
@@ -93,6 +95,36 @@
         - title: link
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
     -->
+    <a href="https://reddit.com">link</a>
+        <li>
+          <!--
+     36, 38, 40
+     TODO: Make an a element
+     Annotation: 4, 5, 6
+     Text: link
+     Attributes:
+       - href: #
+       - title: link
+     Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+   -->
+   <a href="https://reddit.com">link</a>
+       </li>
+       <li>
+        <!--
+   36, 38, 40
+   TODO: Make an a element
+   Annotation: 4, 5, 6
+   Text: link
+   Attributes:
+     - href: #
+     - title: link
+   Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+ -->
+ <a href="https://reddit.com">link</a>
+     </li>
+      </ul>
+  
+    </nav>
 
     <!--
       41
@@ -101,39 +133,51 @@
       Children: h1, p, p
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
     -->
-
-    <!--
-      42
-      TODO: Make an h1 element
-      Annotation: 8
-      Text: Lorem ipsum
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
-    -->
-
-    <!--
-      43
-      TODO: Make an p element
-      Annotation: 9
-      Text:
-        Torquent vulputate dolor habitant eu augue mus sed varius est vivamus duis pretium porttitor
+    <main>
+      <!--
+        42
+        TODO: Make an h1 element
+        Annotation: 8
+        Text: Lorem ipsum
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+      -->
+      <h1>Lorem ipsum</h1>
+  
+      <!--
+        43
+        TODO: Make an p element
+        Annotation: 9
+        Text:
+          Torquent vulputate dolor habitant eu augue mus sed varius est vivamus duis pretium porttitor
+          hac fames efficitur blandit ligula fermentum posuere in rhoncus tempus vehicula tincidunt
+          pellentesque dis tortor auctor velit class iaculis dictum adipiscing curabitur sapien
+          euismod tempor placerat morbi finibus sodales cras vestibulum congue proin ac suscipit
+          massa
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+      -->
+      <p>Torquent vulputate dolor habitant eu augue mus sed varius est vivamus duis pretium porttitor
         hac fames efficitur blandit ligula fermentum posuere in rhoncus tempus vehicula tincidunt
         pellentesque dis tortor auctor velit class iaculis dictum adipiscing curabitur sapien
         euismod tempor placerat morbi finibus sodales cras vestibulum congue proin ac suscipit
-        massa
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
-    -->
-
-    <!--
-      44
-      TODO: Make an p element
-      Annotation: 10
-      Text:
-        Natoque sociosqu metus nunc leo urna eleifend curae suscipit habitasse lorem amet morbi
+        massa</p>
+  
+      <!--
+        44
+        TODO: Make an p element
+        Annotation: 10
+        Text:
+          Natoque sociosqu metus nunc leo urna eleifend curae suscipit habitasse lorem amet morbi
+          pretium montes vestibulum magnis maecenas erat gravida suspendisse quam etiam aliquet rutrum
+          malesuada lectus iaculis adipiscing dolor ligula lacinia tempus cubilia vehicula tempor in
+          blandit porta arcu nam cras tellus per velit aliquam mi molestie augue vitae
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+      -->
+      <p>Natoque sociosqu metus nunc leo urna eleifend curae suscipit habitasse lorem amet morbi
         pretium montes vestibulum magnis maecenas erat gravida suspendisse quam etiam aliquet rutrum
         malesuada lectus iaculis adipiscing dolor ligula lacinia tempus cubilia vehicula tempor in
-        blandit porta arcu nam cras tellus per velit aliquam mi molestie augue vitae
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
-    -->
+        blandit porta arcu nam cras tellus per velit aliquam mi molestie augue vitae</p>
+
+    </main>
 
     <!--
       45
@@ -142,15 +186,15 @@
       Children: nav
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
     -->
-
-    <!--
-      46
-      TODO: Make a nav element
-      Annotation: 12
-      Children: ul
-      Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
-    -->
-
+    <footer>
+          <!--
+            46
+            TODO: Make a nav element
+            Annotation: 12
+            Children: ul
+            Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+          -->
+          <nav>
     <!--
       47
       TODO: Make a ul element
@@ -158,7 +202,7 @@
       Children: li, li, li, li, li, li
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
     -->
-
+    <ul>
     <!--
       48, 50, 52, 54, 56, 58
       TODO: Make a li element
@@ -167,7 +211,7 @@
       Iterations: 6 (i.e. repeat this block and its child six times)
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
     -->
-
+    <li>
     <!--
       49, 51, 52, 55, 57, 59
       TODO: Make an a element
@@ -178,5 +222,90 @@
         - title: Gravida ornare fermentum
       Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
     -->
+    <a href="https://reddit.com">Gravida ornare fermentum</a>
+    </li>
+    <li>
+      <!--
+        49, 51, 52, 55, 57, 59
+        TODO: Make an a element
+        Annotation: 14, 15, 16, 16, 18, 19
+        Text: Gravida ornare fermentum
+        Attributes:
+          - href: #
+          - title: Gravida ornare fermentum
+        Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+      -->
+      <a href="https://reddit.com">Gravida ornare fermentum</a>
+      </li>
+      <li>
+        <!--
+          49, 51, 52, 55, 57, 59
+          TODO: Make an a element
+          Annotation: 14, 15, 16, 16, 18, 19
+          Text: Gravida ornare fermentum
+          Attributes:
+            - href: #
+            - title: Gravida ornare fermentum
+          Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+        -->
+        <a href="https://reddit.com">Gravida ornare fermentum</a>
+        </li>
+        <li>
+          <!--
+            49, 51, 52, 55, 57, 59
+            TODO: Make an a element
+            Annotation: 14, 15, 16, 16, 18, 19
+            Text: Gravida ornare fermentum
+            Attributes:
+              - href: #
+              - title: Gravida ornare fermentum
+            Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+          -->
+          <a href="https://reddit.com">Gravida ornare fermentum</a>
+          </li>
+          <li>
+            <!--
+              49, 51, 52, 55, 57, 59
+              TODO: Make an a element
+              Annotation: 14, 15, 16, 16, 18, 19
+              Text: Gravida ornare fermentum
+              Attributes:
+                - href: #
+                - title: Gravida ornare fermentum
+              Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+            -->
+            <a href="https://reddit.com">Gravida ornare fermentum</a>
+            </li>
+            <li>
+              <!--
+                49, 51, 52, 55, 57, 59
+                TODO: Make an a element
+                Annotation: 14, 15, 16, 16, 18, 19
+                Text: Gravida ornare fermentum
+                Attributes:
+                  - href: #
+                  - title: Gravida ornare fermentum
+                Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+              -->
+              <a href="https://reddit.com">Gravida ornare fermentum</a>
+              </li>
+              <li>
+                <!--
+                  49, 51, 52, 55, 57, 59
+                  TODO: Make an a element
+                  Annotation: 14, 15, 16, 16, 18, 19
+                  Text: Gravida ornare fermentum
+                  Attributes:
+                    - href: #
+                    - title: Gravida ornare fermentum
+                  Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+                -->
+                <a href="https://reddit.com">Gravida ornare fermentum</a>
+                </li>
+    </ul>
+          </nav>
+
+    </footer>
+
   </body>
 </html>
